@@ -10,7 +10,7 @@ namespace XamarinTextToImageDemoApp
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new MainPage(new NavigationPage());
 		}
 
 		protected override void OnStart()

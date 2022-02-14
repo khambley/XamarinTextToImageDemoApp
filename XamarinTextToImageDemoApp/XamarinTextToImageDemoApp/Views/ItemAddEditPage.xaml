@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTextToImageDemoApp.Views.ItemAddEditPage"
+             Title="New Coupon Item">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Padding="14">
+        <Label Text="Expiration Date" />
+        <DatePicker />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Upload Image" />
+        </StackLayout>
+        <Label Text="Mfr Name" />
+        <Entry />
+        
+        <Label Text="Store Name" />
+        <Entry />
+        <Label Text="Brand Name" />
+        <Entry />
+        <Label Text="Product Type" />
+        <Entry />
+        <Label Text="Quantity" />
+        <Entry />
+        <Label Text="Amount" />
+        <Entry />
+        <Label Text="Description" />
+        <Entry />
+        <Label Text="Valid Starting Date" />
+        <DatePicker />
+        <StackLayout Orientation="Horizontal">
+            <Switch />
+            <Label Text="Used?" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

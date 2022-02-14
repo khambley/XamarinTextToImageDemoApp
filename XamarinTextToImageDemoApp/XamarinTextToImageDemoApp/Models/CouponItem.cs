@@ -17,6 +17,7 @@ namespace XamarinTextToImageDemoApp.Models
 		public decimal Amount { get; set; }
 		public string Description { get; set; }
 		public DateTime ValidStartDate { get; set; }
+		public bool IsUsed { get; set; }
 
 	}
 }
